@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+</head>
+<body>
+    <!-- <h1 id="title" class="heading">DOM</h1> -->
+
+    <!-- <h1 id="title" class="heading">DOM learning on chai aur code<span style='display:none;'>Test Text</span></h1> -->
+
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+
+    <script>
+        // console.log(document.getElementById('title'))
+        // console.log(document.getElementById('title').id)
+        // console.log(document.getElementById('title').getAttribute('id'))
+        // console.log(document.getElementById('title').className)
+        // console.log(document.getElementById('title').getAttribute('class'))
+        // console.log(
+        // document.getElementById('title').setAttribute('class',"test heading")
+        // console.log(document.getElementById('title'))
+
+        
+        // console.log(title.innerText);//DOM learning on chai aur code 
+        // console.log(title.textContent);//DOM learning on chai aur code Test Text
+        // console.log(title.innerHTML);//DOM learning on chai aur code <span>Test Text</span>
+
+        // const myUl = document.querySelector('ul');
+        // console.log(myUl);
+        // const turnGreen = document.querySelector('li');
+        // turnGreen.style.background = 'green';
+        // turnGreen.style.padding = '10px';
+        // console.log(turnGreen.innerText);
+        // turnGreen.innerText = 'six';
+        // console.log(turnGreen.innerText);
+
+        // console.log(document.querySelectorAll('li'))
+        // const tempLiList = document.querySelectorAll('li')
+        // tempLiList.style.color = "green"
+        // tempLiList[0].style.color = "green"
+        // tempLiList[1].style.color = "blue"
+        // tempLiList[2].style.color = "red"
+
+        const tempLiList = document.querySelectorAll('li')
+        tempLiList.forEach(function(l){
+            l.style.backgroundColor = 'green'
+        })
+
+
+
+        
+    </script>
+</body>
+</html>
