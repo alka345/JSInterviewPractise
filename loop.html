@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    
+    <script>
+        // for loop 
+        // for (let i = 0; i < 5; i++) {
+        //     console.log(i);   
+        // }
+        // break and continue
+        // for (let i = 0; i <= 7; i++) {
+        // if(i == 5) {
+        //     console.log('Detected 5');
+        //     continue;
+        // }
+        // console.log(`index is ${i}`);   
+        // }
+        // for (let i = 0; i <= 7; i++) {
+        // if(i == 5) {
+        //     console.log('Detected 5');
+        //     break;
+        // }
+        // console.log(`index is ${i}`);   
+        // }
+        //for...of loop : array
+        // const array = [ 1, 2, 3, 4, 5];
+        // for (const arr of array) {
+        //     console.log(arr);
+        // }
+        //for...of loop : string
+        // const greetings = 'Hello World';
+        // for (const greet of greetings) {
+        //     console.log(`Each char is ${greet}`);
+        // }
+        //for...of loop : object
+        // const myObject = {
+        //     'game1': 'NFS',
+        //     'game2': 'SPIDERman'
+        // }
+        // for (const [key, value] of myObject ){
+        //     console.log(key, value);//myObject is not iterable
+        // }
+        //for...in loop : object
+        // const myObject = {
+        //     js : 'javaScript',
+        //     cpp : 'C++',
+        //     rb : 'ruby'
+        // }
+        // for (const key in myObject) {
+            // console.log(key);//js
+                            //cpp
+                            //rb
+            // console.log(myObject[key]);//javaScript
+                                        //C++
+                                        //ruby
+            // console.log(`${key} is for ${myObject[key]}`);//js is for javaScript
+                                                            // cpp is for C++
+                                                            // rb is for ruby
+        // }
+            //for...in loop : Array
+            // const programming = ['js', 'rb', 'py','java', 'cpp'];
+            // for (const key in programming) {
+            //    console.log(key); //0
+                                    //1
+                                    //2
+                                    //3
+                                    //4  
+            // console.log(programming[key]);   //js
+                                                //rb
+                                                //py
+                                                //java
+                                                //cpp
+               
+            // }
+            //forEach() loop
+            // const coding = ['js','ruby','java','python','cpp'];
+            // coding.forEach(function(val){
+                // console.log(val);// js
+                                //ruby
+                                //java
+                                //python
+                                //cpp
+            // })
+            // const coding = ['js','ruby','java','python','cpp'];
+            // coding.forEach((item)=>{
+            //     console.log(item);
+            // })
+            // function printMe(item){
+            //     console.log(item);
+            //     coding.forEach(printMe)
+            // }
+            // const coding = ['js','ruby','java','python','cpp'];
+            // coding.forEach((item, index, arr)=>{
+            //     console.log(item, index, arr);
+            // })
+            // const myCoding = [
+            //     {
+            //         langName : "javascript",
+            //         langFileName : 'js'
+            //     },
+            //      {
+            //         langName : "java",
+            //         langFileName : 'java'
+            //     },
+            //     {
+            //         langName : "python",
+            //         langFileName : 'py'
+            //     },
+            // ]
+            // myCoding.forEach((item)=>{
+            //     console.log(item.langName);
+            // })
+            
+            const coding = ['js','ruby','java','python','cpp'];
+            const values = coding.forEach((item)=>{
+                // console.log(item);
+                console.log(values);
+            })
+
+
+    </script>
+</body>
+</html>

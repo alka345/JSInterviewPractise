@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit and remove Element</title>
+</head>
+<body>
+    <ul class="lang">
+        <li>JavaScript</li>
+    </ul>
+    <script>
+        function addlanguage(lang){
+            const li = document.createElement('li');
+            li.innerHTML = '${lang}'
+            document.querySelector('.lang').appendChild(li)
+        }
+        addlanguage('python')
+        addlanguage('typeScript')
+    </script>
+</body>
+</html>
